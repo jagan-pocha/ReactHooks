@@ -1,0 +1,9 @@
+
+
+.deBouncing > button{
+    color: green;
+    border: 0.2 rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-weight: 700;
+}
