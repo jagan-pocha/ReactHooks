@@ -14,6 +14,9 @@ const DeBouncing=()=>{
         }
     }
 
+    //Calling the function this way by coping is called currying
+    //here fetchDetails is returning a function which we are copying to callFetch Details
+    //and again calling callFetchDetails whenever required in called currying
     const callFetchDetails=fetchDetails('MSI');
 
     return(
