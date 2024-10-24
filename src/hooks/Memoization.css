@@ -1,0 +1,23 @@
+.memoization{
+    display: flex;
+    flex-direction: column;
+}
+
+.memoization > button{
+    color: green;
+    border: 0.2 rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+.memoization > input{
+    color: green;
+    border: 0.2 rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 1rem;
+    font-weight: 700;
+}

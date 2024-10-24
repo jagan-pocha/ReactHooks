@@ -1,5 +1,6 @@
 import "./App.css";
 import DeBouncing from "./hooks/DeBouncing";
+import Memoization from "./hooks/Memoization";
 import UseStateHook from "./hooks/UseStateHook";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
 		<div className="App">
 			<div className="useState">
 				{/* <UseStateHook /> */}
-				<DeBouncing />
+				{/* <DeBouncing /> */}
+				<Memoization />
 			</div>
 		</div>
 	);
