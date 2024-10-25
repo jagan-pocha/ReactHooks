@@ -7,6 +7,7 @@ const Memoization=()=>{
 
     const [power, setPower]=useState(0);
 
+    //This is also an example of creating custom hook
     const calculatePowerTwo=PowerOfTwo();
 
     return(
